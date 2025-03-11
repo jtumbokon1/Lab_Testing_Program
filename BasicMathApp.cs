@@ -13,10 +13,10 @@ namespace BasicMathApp
         private double num2;
 
         // constructor
-        public BasicMath(double num1, double num2)
+        public BasicMath(double num1 = 0, double num2 = 0)
         {
-            num1 = 0;
-            num2 = 0;
+            this.num1 = num1;
+            this.num2 = num2;
         }
 
         // public readonly properties
