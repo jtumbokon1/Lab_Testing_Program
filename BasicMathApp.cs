@@ -19,7 +19,7 @@ namespace BasicMathApp
             this.num2 = num2;
         }
 
-        // public readonly properties
+        // readonly properties
         public double Num1 { get { return num1; } }
         public double Num2 { get { return num2; } }
 
