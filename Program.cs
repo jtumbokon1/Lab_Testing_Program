@@ -1,4 +1,4 @@
-﻿namespace BasicMath
+﻿namespace BasicMathApp
 {
     internal class Program
     {

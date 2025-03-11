@@ -4,13 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicMath
+namespace BasicMathApp
 {
-    class BasicMath
+    public class BasicMath
     {
-        // public properties
-        public double num1 { get; set; }
-        public double num2 { get; set; }
+        // private properties
+        private double num1;
+        private double num2;
+
+        // constructor
+        public BasicMath(double num1, double num2)
+        {
+            num1 = 0;
+            num2 = 0;
+        }
+
+        // public readonly properties
+        public double Num1 { get { return num1; } }
+        public double Num2 { get { return num2; } }
 
         // public methods
         public double Add(double num1, double num2)
@@ -34,3 +45,4 @@ namespace BasicMath
         }
     }// class
 }// namespace
+    
