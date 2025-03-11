@@ -8,9 +8,11 @@ namespace BasicMath
 {
     class BasicMath
     {
+        // public properties
         public double num1 { get; set; }
         public double num2 { get; set; }
 
+        // public methods
         public double Add(double num1, double num2)
         {
             return num1 + num2;
@@ -30,5 +32,5 @@ namespace BasicMath
         {
             return num1 * num2;
         }
-    }
-}
+    }// class
+}// namespace
